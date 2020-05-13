@@ -104,7 +104,7 @@ section#top h1 {
 /* Section Images */
 
 section#top {
-    background: url(/stay.gif) no-repeat center center/cover;
+    background: url(/img/stay.gif) no-repeat center center/cover;
     ;
 }
 
@@ -114,7 +114,7 @@ section#about {
 }
 
 section#service {
-    background: url(/Front.gif) no-repeat center center/cover;
+    background: url(/img/Front.gif) no-repeat center center/cover;
     ;
 }
 
