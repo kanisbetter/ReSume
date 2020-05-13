@@ -113,7 +113,7 @@ section#top {
 }
 
 section#about {
-    background: url(img/cross.gif) no-repeat center center/cover;
+    background: url(img/born.png) no-repeat center center/cover;
     ;
 }
 
@@ -127,7 +127,7 @@ section#service {
 }
 
 section#contact {
-    background: url('https://source.unsplash.com/2aAHlfDOhJM/1600x900') no-repeat center center/cover;
+    background: url(img/cross.gif) no-repeat center center/cover;
     ;
 }
 
