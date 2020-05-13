@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Montserrat;
+    background: #333;
+    color: #fff;
+    height: 100vh;
+    line-height: 1.6;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    /* CSS Smooth Scroll */
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+.lead {
+    font-size: 1.5rem;
+}
+
+.topTitle {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+    margin-top: 3px;
+    margin-right: 50px;
+    width: 100%;
+    height: 20px;
+    text-align: right;
+}
+
+.navbar {
+    position: absolute;
+    display: flex;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    width: 100%;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    height: 30px;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 20px;
+    color: #D8DBE2;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 5px 30px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a:hover {
+    color: skyblue;
+}
+
+.navbar ul li:nth-child(1) a {
+    position: relative;
+    margin-left: 0px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    /* Scroll Snap */
+    scroll-snap-align: center;
+}
+
+section h1 {
+    font-size: 4rem;
+}
+
+section#top h1 {
+    font-size: 200px;
+}
+
+
+/* Section Images */
+
+section#top {
+    background: url(/stay.gif) no-repeat center center/cover;
+    ;
+}
+
+section#about {
+    background: url('https://source.unsplash.com/VRxo0yY-gyM/1600x900') no-repeat center center/cover;
+    ;
+}
+
+section#service {
+    background: url(/Front.gif) no-repeat center center/cover;
+    ;
+}
+
+section#contact {
+    background: url('https://source.unsplash.com/2aAHlfDOhJM/1600x900') no-repeat center center/cover;
+    ;
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar ul {
+        margin-top: 40px;
+    }
+    .navbar ul li a {
+        width: 100%;
+        font-size: 110%;
+        line-height: 30%;
+        padding: 10px 10px;
+    }
+}
