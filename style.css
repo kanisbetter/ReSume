@@ -212,8 +212,8 @@ section#skill {
     ;
 }
 
-section#service {
-    background: url(img/Front.gif) no-repeat center center/cover;
+section#project {
+    background: url(img/pro.png) no-repeat center center/cover;
     top: 0;
     left: 0;
     max-width: 3000px;
@@ -280,6 +280,10 @@ section#contact2 {
     }
     section#skill {
         background: url(img/skill_v.png) no-repeat center center/cover;
+        ;
+    }
+    section#project {
+        background: url(img/pro-v.png) no-repeat center center/cover;
         ;
     }
 }
