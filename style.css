@@ -245,6 +245,14 @@ section#contact2 {
         background: url(img/skill_v.png) no-repeat center center/cover;
         ;
     }
+    section#project {
+        background: url(img/pro-v.png) no-repeat center center/cover;
+        ;
+    }
+    section#about {
+        background: url(img/vertical.gif) no-repeat center center/cover;
+        ;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -286,6 +294,12 @@ section#contact2 {
         background: url(img/pro-v.png) no-repeat center center/cover;
         ;
     }
+    section h1 {
+        font-size: 1.5rem;
+    }
+    section p {
+        font-size: 9px;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -300,5 +314,11 @@ section#contact2 {
         padding: 6px 7px;
         height: 20px;
         font-size: 15px;
+    }
+    section h1 {
+        font-size: 1.5rem;
+    }
+    section p {
+        font-size: 9px;
     }
 }
