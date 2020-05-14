@@ -107,7 +107,7 @@ section#top h1 {
     position: relative;
     margin: 50px auto;
     max-width: 100px;
-    margin-top: 55%;
+    margin-top: 45%;
     margin-right: 3%;
     z-index: 4;
 }
@@ -237,12 +237,7 @@ section#contact {
         padding: 10px 10px;
     }
     .mouse {
-        margin-top: 120%;
-        margin-right: -5%;
-        width: 20%;
-    }
-    .mouse-icon {
-        width: -50%;
+        display: none;
     }
 }
 
