@@ -218,6 +218,14 @@ section#contact {
 
 /* RWD */
 
+@media only screen and (max-width: 1970px) {
+    .mouse {
+        margin-top: 80%;
+        margin-right: 0%;
+        width: 20%;
+    }
+}
+
 @media only screen and (max-width: 1025px) {
     .mouse {
         margin-top: 120%;
