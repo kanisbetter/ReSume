@@ -101,6 +101,84 @@ section#top h1 {
 }
 
 
+/* mouse */
+
+.mouse {
+    position: relative;
+    margin: 50px auto;
+    max-width: 100px;
+    margin-top: 55%;
+    margin-right: 3%;
+    z-index: 4;
+}
+
+.mouse-icon {
+    width: 25px;
+    height: 45px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    /*you can change 'white' to a hex color*/
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+
+.mouse-wheel {
+    height: 6px;
+    margin: 2px auto 0;
+    display: block;
+    width: 3px;
+    background-color: rgba(255, 255, 255, 0.4);
+    /*you can change 'white' to a hex color*/
+    border-radius: 50%;
+    -webkit-animation: 1.6s ease infinite wheel-up-down;
+    -moz-animation: 1.6s ease infinite wheel-up-down;
+    animation: 1.6s ease infinite wheel-up-down;
+}
+
+@-webkit-keyframes wheel-up-down {
+    0% {
+        margin-top: 2px;
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    100% {
+        margin-top: 20px;
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes wheel-up-down {
+    0% {
+        margin-top: 2px;
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    100% {
+        margin-top: 20px;
+        opacity: 0;
+    }
+}
+
+@keyframes wheel-up-down {
+    0% {
+        margin-top: 2px;
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    100% {
+        margin-top: 20px;
+        opacity: 0;
+    }
+}
+
+
 /* Section Images */
 
 section#top {
@@ -131,6 +209,23 @@ section#contact {
     ;
 }
 
+
+/* RWD */
+
+
+/* RWD */
+
+
+/* RWD */
+
+@media only screen and (max-width: 1025px) {
+    .mouse {
+        margin-top: 120%;
+        margin-right: -5%;
+        width: 20%;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .navbar ul {
         margin-top: 40px;
@@ -140,6 +235,14 @@ section#contact {
         font-size: 110%;
         line-height: 30%;
         padding: 10px 10px;
+    }
+    .mouse {
+        margin-top: 120%;
+        margin-right: -5%;
+        width: 20%;
+    }
+    .mouse-icon {
+        width: -50%;
     }
 }
 
@@ -152,9 +255,36 @@ section#contact {
         max-width: 375px;
         font-size: 110%;
         line-height: 30%;
-        padding: 10px 10px;
+        padding: 6px 4px;
+        height: 20px;
     }
-    section#service {
-        width: 70%;
+    section#top {
+        background: url(img/kinetic.gif) no-repeat center center/cover;
+    }
+    .mouse {
+        margin-top: 200%;
+        margin-right: -10%;
+        width: 20%;
+    }
+    .mouse-icon {
+        width: -50%;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .navbar ul {
+        margin-top: 35px;
+    }
+    .navbar ul li a {
+        width: 100%;
+        max-width: 375px;
+        font-size: 110%;
+        line-height: 30%;
+        padding: 6px 4px;
+        height: 20px;
+        font-size: 15px;
+    }
+    .mouse {
+        display: none;
     }
 }
