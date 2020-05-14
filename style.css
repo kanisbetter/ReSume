@@ -196,7 +196,7 @@ section#top {
 }
 
 section#about {
-    background: url(img/born.png) no-repeat center center/cover;
+    background: url(img/born.gif) no-repeat center center/cover;
     ;
 }
 
@@ -249,6 +249,10 @@ section#contact {
     }
     section#top {
         background: url(img/kinetic.gif) no-repeat center center/cover;
+    }
+    section#about {
+        background: url(img/vertical.gif) no-repeat center center/cover;
+        ;
     }
 }
 
