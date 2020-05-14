@@ -103,7 +103,8 @@ section#top h1 {
 
 /* mouse */
 
-.mouse {
+
+/* .mouse {
     position: relative;
     margin: 50px auto;
     max-width: 100px;
@@ -117,7 +118,9 @@ section#top h1 {
     height: 45px;
     border: 2px solid rgba(255, 255, 255, 0.4);
     /*you can change 'white' to a hex color*/
-    border-radius: 15px;
+
+
+/* border-radius: 15px;
     cursor: pointer;
     position: relative;
     text-align: center;
@@ -130,11 +133,13 @@ section#top h1 {
     width: 3px;
     background-color: rgba(255, 255, 255, 0.4);
     /*you can change 'white' to a hex color*/
-    border-radius: 50%;
+
+
+/* border-radius: 50%;
     -webkit-animation: 1.6s ease infinite wheel-up-down;
     -moz-animation: 1.6s ease infinite wheel-up-down;
     animation: 1.6s ease infinite wheel-up-down;
-}
+}  */
 
 @-webkit-keyframes wheel-up-down {
     0% {
@@ -218,22 +223,6 @@ section#contact {
 
 /* RWD */
 
-@media only screen and (max-width: 1970px) {
-    .mouse {
-        margin-top: 80%;
-        margin-right: 0%;
-        width: 20%;
-    }
-}
-
-@media only screen and (max-width: 1025px) {
-    .mouse {
-        margin-top: 120%;
-        margin-right: -5%;
-        width: 20%;
-    }
-}
-
 @media only screen and (max-width: 768px) {
     .navbar ul {
         margin-top: 40px;
@@ -243,9 +232,6 @@ section#contact {
         font-size: 110%;
         line-height: 30%;
         padding: 10px 10px;
-    }
-    .mouse {
-        display: none;
     }
 }
 
@@ -264,14 +250,6 @@ section#contact {
     section#top {
         background: url(img/kinetic.gif) no-repeat center center/cover;
     }
-    .mouse {
-        margin-top: 200%;
-        margin-right: -10%;
-        width: 20%;
-    }
-    .mouse-icon {
-        width: -50%;
-    }
 }
 
 @media only screen and (max-width: 415px) {
@@ -286,8 +264,5 @@ section#contact {
         padding: 6px 4px;
         height: 20px;
         font-size: 15px;
-    }
-    .mouse {
-        display: none;
     }
 }
