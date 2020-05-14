@@ -93,11 +93,18 @@ section {
 }
 
 section h1 {
-    font-size: 4rem;
+    font-size: 3rem;
+    font-family: 'Cinzel', serif;
 }
 
-section#top h1 {
-    font-size: 200px;
+section p {
+    font-size: 18px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+section content {
+    padding-bottom: 40px;
+    box-sizing: border-box;
 }
 
 
@@ -200,6 +207,11 @@ section#about {
     ;
 }
 
+section#skill {
+    background: url(img/skill.png) no-repeat center center/cover;
+    ;
+}
+
 section#service {
     background: url(img/Front.gif) no-repeat center center/cover;
     top: 0;
@@ -211,6 +223,11 @@ section#service {
 
 section#contact {
     background: url(img/cross.gif) no-repeat center center/cover;
+    ;
+}
+
+section#contact2 {
+    background: url(img/ocean.jpg) no-repeat center center/cover;
     ;
 }
 
@@ -252,6 +269,10 @@ section#contact {
     }
     section#about {
         background: url(img/vertical.gif) no-repeat center center/cover;
+        ;
+    }
+    section#skill {
+        background: url(img/skill_v.png) no-repeat center center/cover;
         ;
     }
 }
