@@ -249,27 +249,27 @@ section#contact2 {
 
 @media only screen and (max-width: 768px) {
     .navbar ul {
-        margin-top: 40px;
+        margin-top: 50px;
     }
     .navbar ul li a {
         width: 100%;
         font-size: 110%;
         line-height: 30%;
-        padding: 10px 10px;
+        padding: 6px 10px;
     }
 }
 
 @media only screen and (max-width: 480px) {
     .navbar ul {
-        margin-top: 40px;
+        margin-top: 10px;
     }
     .navbar ul li a {
         width: 100%;
         max-width: 375px;
-        font-size: 110%;
-        line-height: 30%;
-        padding: 6px 4px;
-        height: 20px;
+        font-size: 100%;
+        line-height: 20%;
+        padding: 6px 11px;
+        height: 10px;
     }
     section#top {
         background: url(img/kinetic.gif) no-repeat center center/cover;
@@ -288,16 +288,16 @@ section#contact2 {
     }
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 320px) {
     .navbar ul {
-        margin-top: 35px;
+        margin-top: 12px;
     }
     .navbar ul li a {
         width: 100%;
         max-width: 375px;
         font-size: 110%;
         line-height: 30%;
-        padding: 6px 4px;
+        padding: 6px 7px;
         height: 20px;
         font-size: 15px;
     }
